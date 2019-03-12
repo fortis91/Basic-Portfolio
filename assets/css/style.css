@@ -18,6 +18,8 @@ header {
 
 body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+
+    background-image: url('images/dynamic-style.png');
 }
 
  /* .content {
@@ -53,6 +55,11 @@ footer {
 input {
     width: 100%;
   } */
+
+/* img {
+    float: left;
+    padding: 3px;
+} */
 
  input[type=text] {
     width: 100%;

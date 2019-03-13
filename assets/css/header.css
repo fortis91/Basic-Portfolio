@@ -1,0 +1,46 @@
+body {
+    background-image: url('../images/cork_1.png');
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    /* background-color: yellow; */
+    background-color: #fff;
+    height: 50px;
+
+    color: #fff;
+}
+
+header div {
+    /* background-color: yellowgreen; */
+    background-color: #fff;
+    width: 960px;
+    margin: 0 auto;
+    height: 50px
+}
+
+header h1 {
+    float: left;
+    margin: 0;
+    /* background-color: blueviolet; */
+    background-color: #4aaaa5;
+    height: 50px;
+    padding: 0;
+    box-sizing: border-box;
+
+    padding: 0 20px;
+}
+
+nav {
+    float: right;
+    padding-top: 15px;
+}
+
+nav a {
+    padding-left: 15px;
+    text-decoration: none;
+
+    color: #777777;
+    color: #4aaaa5;
+}

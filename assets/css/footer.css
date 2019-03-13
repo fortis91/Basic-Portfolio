@@ -1,0 +1,9 @@
+footer {
+    /* background-color: blue; */
+    background-color: #666666;
+    text-align: center;
+    height: 50px;
+    padding-top: 15px;
+    /* border-top: 4px solid darkgreen; */
+    border-top: 4px solid #4aaaa5;
+}

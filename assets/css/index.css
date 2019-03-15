@@ -85,3 +85,50 @@ input {
     width: 70px;
     margin: 0px 0px 5px 0px;
 }
+
+
+.portfolio {
+    width: 250px;
+    height: 250px;
+    /* background-image: url(../images/pexels-photo-1374551.jpeg); */
+    background-color: #fff;
+    background-size: cover;
+    position: relative;
+    margin: 1em;
+    float: left;
+
+    margin: 2em 3em 2em 0em;
+}
+
+#portfolio-image-1 {
+    background-image: url(../images/pexels-photo-1374551.jpeg);
+}
+
+#portfolio-image-2 {
+    background-image: url(../images/pexels-photo-1437629.jpeg);
+}
+
+#portfolio-image-3 {
+    background-image: url(../images/pexels-photo-533248.jpeg);
+}
+
+
+#portfolio-image-4 {
+    background-image: url(../images/pexels-photo-290348.jpeg);
+}
+
+#portfolio-image-5 {
+    background-image: url(../images/ice-cream-oreo-frappuccino-waffles-60641.jpeg);
+}
+
+.portfolio h4 {
+    position: absolute;
+    bottom: 0;
+    background-color: #4aaaa5;
+    color: #fff;
+    width: 100%;
+    text-align-last: center;
+    /* padding: .25%; */
+    font-size: 2em;
+    margin-bottom: .25em;
+}

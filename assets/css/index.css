@@ -22,7 +22,7 @@ section h1 {
     background-color: #ffffff;
     margin-bottom: 10px;
 
-    color: #4aaaa5;
+    color: #8D99AE;
     /* padding: 0 px; */
 
     border-color: #dddddd;
@@ -61,7 +61,7 @@ input {
 
  input[type=text]:focus {
     /* background-color: yellow; */
-    border-color: #4aaaa5;
+    border-color: #8D99AE;
   }
 
  textarea {
@@ -79,17 +79,23 @@ input {
   }
 
 .button {
-    background-color: #4aaaa5;
+    background-color: #EF233C;
     color: #fff;
+    text-align: center;
     padding: 5px;
     width: 70px;
     margin: 0px 0px 5px 0px;
+
+    outline: #8D99AE;
 }
 
+/* .button:focus {
+    background-color: #8D99AE;
+} */
 
 .portfolio {
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     /* background-image: url(../images/pexels-photo-1374551.jpeg); */
     background-color: #fff;
     background-size: cover;
@@ -124,11 +130,27 @@ input {
 .portfolio h4 {
     position: absolute;
     bottom: 0;
-    background-color: #4aaaa5;
+    background-color: #8D99AE;
     color: #fff;
     width: 100%;
     text-align-last: center;
     /* padding: .25%; */
     font-size: 2em;
     margin-bottom: .25em;
+}
+
+
+
+.portfolio h2 {
+    position: absolute;
+    bottom: 0;
+    background-color: #8D99AE;
+    color: #fff;
+    width: 100%;
+    text-align-last: center;
+    /* padding: .25%; */
+    /* font-size: 1.5em; */
+    margin-bottom: .25em;
+
+    padding: 10px 0 10px 0px; 
 }

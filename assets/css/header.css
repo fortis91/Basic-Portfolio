@@ -25,7 +25,7 @@ header div {
 header h1 {
     float: left;
     margin: 0;
-    background-color: #4aaaa5;
+    background-color: #2B2D42;
     height: 50px;
     padding: 0;
     box-sizing: border-box;
@@ -43,5 +43,5 @@ nav a {
     padding-left: 15px;
     text-decoration: none;
 
-    color: #4aaaa5;
+    color: #EF233C;
 }

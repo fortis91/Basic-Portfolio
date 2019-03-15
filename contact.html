@@ -22,17 +22,22 @@
     </header>
     <section class="clearfix">
         <h1>Contact</h1>
-        <form action="mailto:youraddr@domain.tld" id="contactForm">
+        <form action="mailto:neastern101@yahoo.com" method="post" enctype="text/plain">
             Name <br><input type="text" name="name" placeholder="John Smith"><br>
             Email <br><input type="text" name="name" placeholder="youremail@gmail.com"><br>
             Message<br><textarea rows="4" cols="50" name="message" form="contactForm" placeholder="Send me a message"></textarea><br>
-
-            <input type="submit" value="Submit" class="button">
+            <!-- <input type="submit" value="Submit" class="button"> -->
+            <button type="button" class="button" onclick="message()">Submit</button>
         </form>      
     </section>
    
     <footer>
         copyright &copy 2019
     </footer>
+    <script>
+        function message() {
+            alert("Sorry, not implemented yet!");
+        }
+    </script>
 </body>
 </html>
